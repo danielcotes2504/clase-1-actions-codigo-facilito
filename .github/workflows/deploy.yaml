@@ -8,9 +8,8 @@ jobs:
   deploy-codigofacilito:
     runs-on: ubuntu-latest
     steps:
-      - run: python3 -m venv env
-      - run: ruby main.rb
       - run: echo "Hacemos pull del código"
       - run: echo "Correr migraciones"
       - run: echo "Generar binario"
       - run: echo "Publicar versión"
+      - run: echo "Publicar versión en master"
